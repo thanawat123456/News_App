@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_news_app_ui/models/article_model.dart';
-import 'package:flutter_news_app_ui/screens/screens.dart';
-import 'package:flutter_news_app_ui/widgets/custom_tag.dart';
+import 'package:news_app/models/article_model.dart';
+import 'package:news_app/screens/screens.dart';
+import 'package:news_app/widgets/custom_tag.dart';
 
 import '../widgets/bottom_nav_bar.dart';
 import '../widgets/image_container.dart';
@@ -60,7 +60,7 @@ class _BreakingNews extends StatelessWidget {
                     .headlineSmall!
                     .copyWith(fontWeight: FontWeight.bold),
               ),
-              Text('More', style: Theme.of(context).textTheme.bodyLarge),
+              // Text('More', style: Theme.of(context).textTheme.bodyLarge),
             ],
           ),
           const SizedBox(height: 20),
